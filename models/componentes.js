@@ -1,6 +1,7 @@
 const Sequelize = require('sequelize');
 const database = require('../db');
 
+//criação da Tabela Componentes
 const Componentes = database.define('componentes', {
     ref: {
         type: Sequelize.STRING,
